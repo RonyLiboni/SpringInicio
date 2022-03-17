@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <meta charset="UTF-8">
+      <title>Carreira Protagonista!</title>
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <header>
+         <div class="caixa">
+            <nav>
+               <ul>
+                  <li><a href="Index">Início</a></li>
+                  <li><a href="AutoConhecimento.html">Autoconhecimento</a></li>
+                  <li><a href="Exploração">Exploração</a></li>
+                  <li><a href="Planejamento">Planejamento</a></li>
+            </nav>
+         </div>
+      </header>
+      <main>
+      Olá <span th:text="${name}"></span> sua idade é <span th:text="${age}"></span>
+      </main>
+     
+   </body>
+
+</html>
